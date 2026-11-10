@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=69.0.0", "wheel>=0.42.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plano-corte-barras"
+version = "1.0.0"
+description = "Otimização determinística de corte unidimensional (1D) de barras, perfis e tubos com aproveitamento máximo e perda mínima."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Martin Lofrano / LOFRANO TECNOLOGIA", email = "martinlofranodeoliveira@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Manufacturing",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering",
+]
+keywords = [
+    "plano-corte",
+    "cutting-stock",
+    "1d-bin-packing",
+    "serralheria",
+    "marcenaria",
+    "vergalhoes",
+    "otimizacao",
+]
+
+[project.urls]
+Homepage = "https://github.com/martinlofranodeoliveira/plano-corte-barras"
+Repository = "https://github.com/martinlofranodeoliveira/plano-corte-barras"
+Issues = "https://github.com/martinlofranodeoliveira/plano-corte-barras/issues"
+
+[project.scripts]
+plano-corte-barras = "plano_corte_barras.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]

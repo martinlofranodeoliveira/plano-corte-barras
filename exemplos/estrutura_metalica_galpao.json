@@ -1,0 +1,70 @@
+{
+  "estoque_barras": [
+    {
+      "comprimento_mm": 6000,
+      "custo_unitario_centavos": 14500,
+      "id": "BARRA-6M-TUBO50",
+      "perfil": "TUBO_50X50_2MM",
+      "quantidade": 15
+    },
+    {
+      "comprimento_mm": 12000,
+      "custo_unitario_centavos": 4200,
+      "id": "BARRA-12M-CA50",
+      "perfil": "VERGALHAO_CA50_10MM",
+      "quantidade": 20
+    }
+  ],
+  "parametros": {
+    "comprimento_minimo_aproveitavel_mm": 500,
+    "espessura_corte_mm": 3,
+    "margem_seguranca_ponta_mm": 10
+  },
+  "pecas_demandadas": [
+    {
+      "comprimento_mm": 2400,
+      "descricao": "Montante Vertical Principal",
+      "id": "MONTANTE-A",
+      "perfil": "TUBO_50X50_2MM",
+      "quantidade": 6
+    },
+    {
+      "comprimento_mm": 1800,
+      "descricao": "Travessa Horizontal de Reforço",
+      "id": "TRAVESSA-B",
+      "perfil": "TUBO_50X50_2MM",
+      "quantidade": 8
+    },
+    {
+      "comprimento_mm": 1150,
+      "descricao": "Tirante Diagonal Contraventamento",
+      "id": "DIAGONAL-C",
+      "perfil": "TUBO_50X50_2MM",
+      "quantidade": 12
+    },
+    {
+      "comprimento_mm": 3400,
+      "descricao": "Armadura Longitudinal Pilar P1",
+      "id": "ESTRIBO-P1",
+      "perfil": "VERGALHAO_CA50_10MM",
+      "quantidade": 10
+    },
+    {
+      "comprimento_mm": 2850,
+      "descricao": "Armadura Longitudinal Pilar P2",
+      "id": "ESTRIBO-P2",
+      "perfil": "VERGALHAO_CA50_10MM",
+      "quantidade": 14
+    },
+    {
+      "comprimento_mm": 4200,
+      "descricao": "Reforço Positivo Viga V1",
+      "id": "VIGA-V1",
+      "perfil": "VERGALHAO_CA50_10MM",
+      "quantidade": 8
+    }
+  ],
+  "projeto": {
+    "nome": "Estrutura Metálica Galpão Industrial Modulado"
+  }
+}
